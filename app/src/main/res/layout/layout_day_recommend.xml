@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_recommend_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_180"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_blue_corners_r10">
+    <RelativeLayout
+        android:id="@+id/ll_suit_layout"
+        android:layout_width="106dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/ic_flower_bg">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_start_day"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginStart="@dimen/dp_25"
+            android:layout_marginEnd="@dimen/dp_18"
+            android:layout_marginTop="@dimen/dp_15"
+            android:text="二零一八   九月二十七"
+            android:textColor="#ff7a4918"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7D80A4"
+            android:layout_above="@+id/iv_word_suit"
+            android:layout_marginBottom="@dimen/dp_13"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_word_suit"
+            android:layout_width="33dp"
+            android:layout_height="@dimen/dp_38"
+            android:background="@drawable/ic_word_suit"
+            android:layout_centerInParent="true"/>
+       <!-- <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_word_unsuit"
+            android:layout_width="33dp"
+            android:layout_height="@dimen/dp_38"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_3"
+            android:background="@drawable/ic_word_unsuit"
+            android:layout_toRightOf="@+id/iv_word_suit"/>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#7D80A4"
+            android:layout_below="@+id/iv_word_suit"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_end_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二零一八   九月二十七"
+            android:layout_marginStart="@dimen/dp_25"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:textColor="#ff7a4918"
+            android:textSize="12sp"
+            android:layout_marginBottom="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_recommend_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/ll_suit_layout"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="自己不能胜任的事情，切莫轻易答应别人，一旦答应了别人，就必须实践自己的诺言"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_words_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="—— 华盛顿"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginEnd="18dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp"
+        />
+    </RelativeLayout>
+</RelativeLayout>

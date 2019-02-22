@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestAnimationView</string>
+    <string name="isUp">0</string>
+    <string name="spd">0</string>
+</resources>

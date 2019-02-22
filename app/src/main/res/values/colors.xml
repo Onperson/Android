@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="color_b3">#B3B3B3</color>
+    <color name="color_1d3c6c">#1D3C6C</color>
+    <color name="color_4a2c16">#4A2C16</color>
+    <color name="color_00ffff">#00FFFFFF</color>
+    <color name="color_ccffff">#CCFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="color_cc0000">#CC000000</color>
+    <color name="black_181b21">#181B21</color>
+    <color name="color_cc181b21">#CC181B21</color>
+    <color name="color_ffa500">#FFA500</color>
+    <color name="color_e5e5e5">#E5E5E5</color>
+    <color name="article_black">#505050</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_d1">#D1D1D1</color>
+    <color name="color_ffeeeeee">#ffeeeeee</color>
+    <color name="color_99">#999999</color>
+    <color name="color_ee">#EEEEEE</color>
+    <color name="black_33">#333333</color>
+    <color name="black_93">#939393</color>
+    <color name="grey_de">#dedede</color>
+    <color name="grey_f1">#f1f1f1</color>
+    <color name="grey_cc">#cccccc</color>
+    <color name="grey_dd">#DDDDDD</color>
+    <color name="green_9c">#00A89C</color>
+    <color name="red">#ff0000</color>
+    <color name="color_f4">#f4f4f4</color>
+    <color name="color_ececec">#ECECEC</color>
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_00a896">#00a896</color>
+    <color name="color_01AAA0">#FF01AAA0</color>
+    <color name="color_fff07979">#fff07979</color>
+    <color name="color_fff47d7d">#fff47d7d</color>
+    <color name="yellow_60f29f87">#60f29f87</color>
+    <color name="color_F3AD87">#F3AD87</color>
+    <color name="color_FFE5C4">#FFE5C4</color>
+    <color name="color_ffece1">#FFECE1</color>
+    <color name="color_ebe6d7">#EBE6D7</color>
+    <color name="color_ccebe6d7">#CCEBE6D7</color>
+    <color name="color_c9ebc9">#C9EBC9</color>
+    <color name="color_fef6f8">#FEF6F0</color>
+    <color name="color_432915">#432915</color>
+    <color name="color_53">#535353</color>
+    <color name="color_f1b787">#F1B787</color>
+    <color name="color_ebe4de">#EBE4DE</color>
+    <color name="color_69">#999999</color>
+    <color name="green">#93FFF0</color>
+    <color name="trans">#00000000</color>
+
+    <color name="yellow_FFC34D">#FFC34D</color>
+    <color name="black_cc">#ffcccccc</color>
+    <color name="grey_93">#939393</color>
+
+
+    <color name="colorPrimary">#6e6e6e</color>
+    <color name="colorPrimaryDark">#505050</color>
+    <color name="colorAccent">#505050</color>
+</resources>

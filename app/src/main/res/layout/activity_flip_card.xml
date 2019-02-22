@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_flip_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="翻转卡片"/>
+    <com.fenjiread.learner.activity.widget.DayRecommendLayout
+        android:id="@+id/drl_day_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

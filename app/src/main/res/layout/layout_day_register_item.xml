@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/rl_register_one_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_register_image"
+            android:layout_width="39dp"
+            android:layout_height="@dimen/dp_22"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_gray_book"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_register_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textSize="@dimen/sp_12"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/color_69"
+            android:text="第一天"/>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/view_line_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green_9c"
+        android:paddingStart="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_3"
+        android:layout_toEndOf="@+id/rl_register_one_layout"
+        android:paddingEnd="@dimen/dp_10"
+        android:text="- -"/>
+</RelativeLayout>

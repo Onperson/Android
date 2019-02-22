@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.activity.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_prepare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="生成预支付ID"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="唤起微信支付"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_book_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="支付中签约接口"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_flip_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="跳转到翻卡片的动画页面"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_as_ant_collent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="跳转到仿蚂蚁森林的收集积分动画"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_tag_cloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="跳转到知识星球云标签界面"/>
+</LinearLayout>
