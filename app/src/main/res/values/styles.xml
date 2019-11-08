@@ -32,4 +32,8 @@
         <attr name="inAnimation" format="reference"/>
         <attr name="outAnimation" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="RegularHexagonView">
+        <attr name="viewCountNum" format="integer"/>
+    </declare-styleable>
 </resources>

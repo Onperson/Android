@@ -51,6 +51,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             Intent intent = new Intent(MainActivity.this,TagCloudActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.btn_credit_system).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SixCreditViewActivity.class);
+            startActivity(intent);
+        });
     }
     @Override
     public void onClick(View v) {

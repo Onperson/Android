@@ -44,4 +44,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_prepare"
         android:text="跳转到知识星球云标签界面"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_credit_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="跳转到仿支付宝信用评分体系界面"/>
 </LinearLayout>
