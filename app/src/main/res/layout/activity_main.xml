@@ -50,4 +50,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_prepare"
         android:text="跳转到仿支付宝信用评分体系界面"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="跳转到打开任务宝箱的界面"/>
 </LinearLayout>

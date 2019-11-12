@@ -23,6 +23,7 @@
         <activity android:name=".activity.activity.CollectPointActivity"/>
         <activity android:name=".activity.activity.TagCloudActivity"/>
         <activity android:name=".activity.activity.SixCreditViewActivity"/>
+        <activity android:name=".activity.activity.ScrollingActivity"/>
     </application>
 
 </manifest>
