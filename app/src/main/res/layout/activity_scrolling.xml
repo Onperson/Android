@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false">
 
-    <android.support.v7.widget.RecyclerView
+    <com.fenjiread.learner.activity.widget.TaskboxRecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
