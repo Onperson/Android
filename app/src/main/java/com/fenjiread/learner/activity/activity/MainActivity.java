@@ -59,6 +59,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.btn_expand_view).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DropdownViewActivity.class);
+            startActivity(intent);
+        });
     }
     @Override
     public void onClick(View v) {

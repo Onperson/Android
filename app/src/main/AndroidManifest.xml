@@ -24,6 +24,7 @@
         <activity android:name=".activity.activity.TagCloudActivity"/>
         <activity android:name=".activity.activity.SixCreditViewActivity"/>
         <activity android:name=".activity.activity.ScrollingActivity"/>
+        <activity android:name=".activity.activity.DropdownViewActivity"/>
     </application>
 
 </manifest>
