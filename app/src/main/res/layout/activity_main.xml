@@ -62,4 +62,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_prepare"
         android:text="跳转到自定义类似抽屉布局控件"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_handler_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="通过代码说明Handler使用和意义"/>
 </LinearLayout>

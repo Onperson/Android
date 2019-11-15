@@ -35,7 +35,7 @@ public class RecycAdapter  extends RecyclerView.Adapter<DrapDownHolder> {
 
     @Override
     public int getItemCount() {
-        return 100;
+        return 10;
     }
 
     @Override

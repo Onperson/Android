@@ -18,6 +18,8 @@ import com.thoughtworks.xstream.XStream;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
 
@@ -61,6 +63,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         });
         findViewById(R.id.btn_expand_view).setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, DropdownViewActivity.class);
+            startActivity(intent);
+        });
+        findViewById(R.id.btn_handler_test).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, HandlerTestActivity.class);
             startActivity(intent);
         });
     }

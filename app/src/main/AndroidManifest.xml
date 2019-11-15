@@ -25,6 +25,7 @@
         <activity android:name=".activity.activity.SixCreditViewActivity"/>
         <activity android:name=".activity.activity.ScrollingActivity"/>
         <activity android:name=".activity.activity.DropdownViewActivity"/>
+        <activity android:name=".activity.activity.HandlerTestActivity"/>
     </application>
 
 </manifest>
