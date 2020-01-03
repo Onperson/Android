@@ -69,4 +69,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_prepare"
         android:text="通过代码说明Handler使用和意义"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/but_bubble_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="冒泡动画"/>
 </LinearLayout>

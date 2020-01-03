@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             Intent intent = new Intent(MainActivity.this, HandlerTestActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.but_bubble_view).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BubbleActivity.class);
+            startActivity(intent);
+        });
     }
     @Override
     public void onClick(View v) {
