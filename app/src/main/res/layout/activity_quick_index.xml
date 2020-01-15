@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--左边内容-->
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--中间内容-->
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#44000000"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:visibility="gone" />
+    <!--右边内容-->
+    <com.fenjiread.learner.activity.widget.QuickIndexView
+        android:id="@+id/iv_words"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

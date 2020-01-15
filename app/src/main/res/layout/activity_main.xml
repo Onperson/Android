@@ -75,4 +75,16 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_prepare"
         android:text="冒泡动画"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_quick_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="英文索引"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_meituan_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_prepare"
+        android:text="仿美团英文索引"/>
 </LinearLayout>

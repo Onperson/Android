@@ -42,6 +42,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation files('libs/pinyin4j-2.5.0.jar')
+    implementation 'com.github.promeg:tinypinyin:1.0.0' // ~80KB
+
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'

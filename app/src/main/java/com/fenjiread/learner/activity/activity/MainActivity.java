@@ -73,6 +73,14 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             Intent intent = new Intent(MainActivity.this, BubbleActivity.class);
             startActivity(intent);
         });
+        findViewById(R.id.btn_quick_index).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, QuickIndexActivity.class);
+            startActivity(intent);
+        });
+        findViewById(R.id.btn_meituan_index).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, MeituanSelectCityActivity.class);
+            startActivity(intent);
+        });
     }
     @Override
     public void onClick(View v) {

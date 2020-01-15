@@ -27,6 +27,8 @@
         <activity android:name=".activity.activity.DropdownViewActivity"/>
         <activity android:name=".activity.activity.HandlerTestActivity"/>
         <activity android:name=".activity.activity.BubbleActivity"/>
+        <activity android:name=".activity.activity.QuickIndexActivity"/>
+        <activity android:name=".activity.activity.MeituanSelectCityActivity"/>
     </application>
 
 </manifest>

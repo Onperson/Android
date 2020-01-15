@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_40"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/dp_15"
+              android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安阳"
+        android:textColor="#ff444444"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_14"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#E4E4E4"
+         android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_32"/>
+</RelativeLayout>

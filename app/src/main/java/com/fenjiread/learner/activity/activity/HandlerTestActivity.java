@@ -38,8 +38,6 @@ public class HandlerTestActivity  extends AppCompatActivity {
                     mStringBuffer.append("我自己给自己发消息玩～,延迟一秒\n");
                     mLoggerPanel.setText(mStringBuffer.toString());
                     mHandler.sendEmptyMessageDelayed(100,1000);
-                    Intent intent = new Intent(HandlerTestActivity.this, HandlerTestActivity.class);
-                    startActivity(intent);
                     Log.e(">>>>>>>>>>>>>","我自己给自己发消息玩～,延迟一秒");
                     break;
                     default:
