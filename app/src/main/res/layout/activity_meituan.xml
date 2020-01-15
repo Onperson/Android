@@ -27,7 +27,7 @@
         android:layout_gravity="right"
         android:layout_marginRight="@dimen/dp_5"
         android:layout_marginTop="@dimen/dp_132"/>
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tvSideBarHint"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -37,6 +37,7 @@
         android:textColor="@android:color/white"
         android:textSize="48sp"
         tools:text="A"
+        android:visibility="gone"
         tools:visibility="visible"/>
 
     <Button

@@ -5,12 +5,15 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
+
+import com.fenjiread.learner.activity.utils.PinYinUtils;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -29,6 +32,7 @@ public class SuspensionDecoration extends RecyclerView.ItemDecoration {
     private Rect mBounds;//用于存放测量文字Rect
 
     private LayoutInflater mInflater;
+    private AppCompatTextView mHintTextView;
 
     private int mTitleHeight;//title的高
     private static int COLOR_TITLE_BG = Color.parseColor("#FFDFDFDF");
@@ -55,7 +59,10 @@ public class SuspensionDecoration extends RecyclerView.ItemDecoration {
         this.mTitleHeight = mTitleHeight;
         return this;
     }
-
+    public SuspensionDecoration setHintText(AppCompatTextView textView) {
+        this.mHintTextView = textView;
+        return this;
+    }
 
     public SuspensionDecoration setColorTitleBg(int colorTitleBg) {
         COLOR_TITLE_BG = colorTitleBg;
@@ -182,6 +189,17 @@ public class SuspensionDecoration extends RecyclerView.ItemDecoration {
             c.drawText(tag, child.getPaddingLeft(),
                     parent.getPaddingTop() + mTitleHeight - (mTitleHeight / 2 - mBounds.height() / 2),
                     mPaint);
+            if(PinYinUtils.isEnglish(tag)) {
+                mHintTextView.setText(tag);
+                mHintTextView.setVisibility(View.VISIBLE);
+                mHintTextView.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mHintTextView.setVisibility(View.GONE);
+                    }
+                }, 500);
+            }
+            Log.e(">>>>>>>>>>>>>>>>","显示悬停头布局:"+tag);
             if (flag)
                 c.restore();//恢复画布到之前保存的状态
         }catch (Exception e){

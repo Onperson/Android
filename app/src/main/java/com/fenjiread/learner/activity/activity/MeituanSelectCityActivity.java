@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -63,7 +64,7 @@ public class MeituanSelectCityActivity extends AppCompatActivity {
     /**
      * 显示指示器DialogText
      */
-    private TextView mTvSideBarHint;
+    private AppCompatTextView mTvSideBarHint;
 
 
     @Override
@@ -126,10 +127,11 @@ public class MeituanSelectCityActivity extends AppCompatActivity {
         mHeaderAdapter.setHeaderView(1, R.layout.meituan_item_header, mHeaderDatas.get(0));
         mHeaderAdapter.setHeaderView(2, R.layout.meituan_item_header, mHeaderDatas.get(1));
         mHeaderAdapter.setHeaderView(3, R.layout.meituan_item_header, mHeaderDatas.get(2));
-
+        mTvSideBarHint = findViewById(R.id.tvSideBarHint);//HintTextView
 
         mRv.setAdapter(mHeaderAdapter);
         mRv.addItemDecoration(mDecoration = new SuspensionDecoration(this, mSourceDatas)
+                .setHintText(mTvSideBarHint)
                 .setmTitleHeight((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 39,
                         getResources().getDisplayMetrics()))
                 .setColorTitleBg(Color.parseColor("#F8F8F8"))
@@ -140,7 +142,7 @@ public class MeituanSelectCityActivity extends AppCompatActivity {
        // mRv.addItemDecoration(new DividerItemDecoration(mContext, DividerItemDecoration.VERTICAL));
 
         //使用indexBar
-        mTvSideBarHint = (TextView) findViewById(R.id.tvSideBarHint);//HintTextView
+
         mIndexBar = (IndexBar) findViewById(R.id.indexBar);//IndexBar
 
         mIndexBar.setmPressedShowTextView(mTvSideBarHint)//设置HintTextView

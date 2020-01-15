@@ -53,4 +53,16 @@ public class PinYinUtils {
         }
         return pinyin;
     }
+    /**
+     * 校验是否是英文字符
+     * @param charaString
+     * @return
+     */
+    public static boolean isEnglish(String charaString){
+        if(ObjectUtils.isNotEmpty(charaString)) {
+            return charaString.matches("^[a-zA-Z]*");
+        }else{
+            return false;
+        }
+    }
 }
